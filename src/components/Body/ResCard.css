@@ -1,0 +1,47 @@
+.res-card {
+  width: 230px;               /* smaller = cleaner */
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.res-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.res-details {
+  padding: 10px;
+}
+
+.res-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.res-cuisine {
+  font-size: 13px;
+  color: gray;
+  margin: 4px 0;
+}
+
+.res-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.rating {
+  color: green;
+  font-weight: 500;
+}
+
+.time {
+  color: #555;
+}

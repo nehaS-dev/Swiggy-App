@@ -1,0 +1,144 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 60px;
+  padding: 0 24px;
+
+  background-color: #fff;
+
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Logo */
+.header_logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e23744;
+}
+
+/* Search section */
+.header_search {
+  display: flex;
+  align-items: center;
+}
+
+.location_search {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.location_icon {
+  color: #e23744;
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.location_text {
+  font-weight: 500;
+}
+
+.location_divider {
+  margin: 0 8px;
+  color: #ccc;
+}
+
+.restaurant_search {
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* Auth section */
+.auth_buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.auth_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Login / Signup buttons */
+.login_button,
+.signup_button {
+  height: 36px;
+  padding: 0 14px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.signup_button {
+  background-color: #ff4f5a;
+  color: white;
+}
+
+/* Logged-in username */
+.user_id {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1c1c1c;
+
+  cursor: pointer;
+  line-height: 1;
+
+  text-transform: capitalize;
+}
+
+
+.logout_button {
+  background: none;
+  border: none;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: #e23744;          /* same red as your theme */
+
+  cursor: pointer;
+  padding: 6px 8px;
+}
+
+.logout_button:hover {
+  text-decoration: underline;
+}
+
+.custom_alert {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: #e23744; /* Zamota red */
+  color: #ffffff;
+
+  padding: 12px 20px;
+  border-radius: 8px;
+
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+}
+

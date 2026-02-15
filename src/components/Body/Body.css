@@ -1,0 +1,38 @@
+.body-wrapper {
+  display: flex;
+  justify-content: center; /* 👈 centers the grid */
+}
+
+.body {
+  width: 1200px; /* fixed content width like Zomato */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 24px;
+  padding: 24px;
+}
+.content_container {
+  margin-top: 24px;
+  width: 1200px; /* SAME as grid width */
+}
+
+.filter_bar {
+  width: 1200px;
+  margin: 0 auto 16px auto; /* center + space below */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.filter_btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff645a;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.filter_btn:hover {
+  background-color: #e5534b;
+}

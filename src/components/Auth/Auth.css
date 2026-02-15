@@ -1,0 +1,166 @@
+
+
+.login_menu {
+  width: 360px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.signup_menu {
+  position: relative;
+  z-index: 1001;
+}
+
+
+.login_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login_name {
+  margin: 0;
+  font-size: 20px;
+}
+
+.close_btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #555;
+}
+
+.close_btn:hover {
+  color: #e23744;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_input {
+  height: 40px;
+  padding: 0 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.login_input:focus {
+  outline: none;
+  border-color: #e23744;
+}
+
+.login_submit {
+  height: 42px;
+  background-color: #e23744;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login_submit:hover {
+  background-color: #d32f3b;
+}
+.login_form .error_text {
+  color: #e23744 !important;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* Signup modal */
+.signup_menu {
+  width: 360px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Signup header */
+.signup_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.signup_name {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Close button */
+.signup_close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #555;
+}
+
+.signup_close:hover {
+  color: #e23744;
+}
+
+/* Signup form */
+.signup_auth {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Inputs */
+.signup_input,
+.otp_input {
+  height: 40px;
+  padding: 0 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.signup_input:focus,
+.otp_input:focus {
+  outline: none;
+  border-color: #e23744;
+}
+
+/* Buttons */
+.send_otp,
+.submit_signup {
+  height: 42px;
+  background-color: #e23744;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.send_otp:hover,
+.submit_signup:hover {
+  background-color: #d32f3b;
+}
+
+
+.email_error,
+.contact_error,
+.password_error,
+.otp_error {
+  color: #e23744;        /* Zomato red */
+  font-size: 12px;
+  margin-top: -8px;      /* pulls error closer to input */
+  margin-bottom: 10px;
+}

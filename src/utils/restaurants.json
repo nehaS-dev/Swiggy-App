@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Domino's Pizza",
+    "rating": 4.3,
+    "cuisine": "Pizza, Fast Food",
+    "time": "30 mins",
+    "image": "https://images.unsplash.com/photo-1601924582975-7e1bcd7d2b9d?w=600"
+  },
+  {
+    "id": 2,
+    "name": "Burger King",
+    "rating": 4.1,
+    "cuisine": "Burgers, American",
+    "time": "25 mins",
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600"
+  },
+  {
+    "id": 3,
+    "name": "Biryani Blues",
+    "rating": 4.4,
+    "cuisine": "Biryani, Indian",
+    "time": "35 mins",
+    "image": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
+  },
+  {
+    "id": 4,
+    "name": "KFC",
+    "rating": 4.0,
+    "cuisine": "Fried Chicken, Fast Food",
+    "time": "28 mins",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600"
+  },
+  {
+    "id": 5,
+    "name": "Subway",
+    "rating": 4.2,
+    "cuisine": "Healthy, Sandwiches",
+    "time": "22 mins",
+    "image": "https://images.unsplash.com/photo-1553909489-cd47e0907980?w=600"
+  },
+  {
+    "id": 6,
+    "name": "Pizza Hut",
+    "rating": 4.1,
+    "cuisine": "Pizza, Italian",
+    "time": "32 mins",
+    "image": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600"
+  },
+  {
+    "id": 7,
+    "name": "McDonald's",
+    "rating": 4.0,
+    "cuisine": "Burgers, Fast Food",
+    "time": "20 mins",
+    "image": "https://images.unsplash.com/photo-1610614819513-58e34989848b?w=600"
+  },
+  {
+    "id": 8,
+    "name": "Haldiram's",
+    "rating": 4.5,
+    "cuisine": "North Indian, Sweets",
+    "time": "40 mins",
+    "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600"
+  },
+  {
+    "id": 9,
+    "name": "Wow! Momo",
+    "rating": 4.3,
+    "cuisine": "Momos, Tibetan",
+    "time": "27 mins",
+    "image": "https://images.unsplash.com/photo-1625395005224-0fce68caa40d?w=600"
+  },
+  {
+    "id": 10,
+    "name": "Barbeque Nation",
+    "rating": 4.6,
+    "cuisine": "BBQ, Buffet",
+    "time": "45 mins",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600"
+  }
+]
