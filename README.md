@@ -1,6 +1,6 @@
-Zamota | Food Ordering App (React + Parcel)
+FoodEase | Food Ordering App (React + Parcel)
 
-Zamota is a modern food-ordering web application built using React.
+FoodEase is a modern food-ordering web application built using React.
 It includes user authentication (Login & Signup), restaurant listing UI, Shimmer loading placeholders, and responsive design.
 
 
